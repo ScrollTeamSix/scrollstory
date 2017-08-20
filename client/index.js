@@ -1,12 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-// import App from './components/App.jsx';
-// import { BrowserRouter as Router } from 'react-router-dom';
+import App from './Containers/App.jsx';
 
-// import injectTapEventPlugin from 'react-tap-event-plugin';
-// import styles from './styles/main.css' //base styles to remove margin
-
-// injectTapEventPlugin();
-
-ReactDOM.render(<h1>Hello from SrollyPolly!</h1>, document.getElementById('root'));
+ReactDOM.render(
+  <App />, document.getElementById('root'),
+);
