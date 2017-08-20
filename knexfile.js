@@ -1,9 +1,9 @@
-module.exports = {
+  module.exports = {
 
   development: {
     client: 'pg',
     connection: {
-      database: 'Scroll_dev'
+      database: 'scroll_dev'
     },
     pool: {
       min: 2,
@@ -17,7 +17,7 @@ module.exports = {
   test: {
     client: 'pg',
     connection: {
-      database: 'Scroll_test'
+      database: 'scroll_test'
     },
     pool: {
       min: 2,
